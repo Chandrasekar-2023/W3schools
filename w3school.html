@@ -1,0 +1,1205 @@
+<html>
+  <head>
+    <style>
+      .headingdiv {
+        text-align: center;
+        color: white;
+        background-color: black;
+      }
+      .heading {
+        font-size: 70px;
+        font-weight: 700;
+        font-family: sans-serif;
+      }
+      .heading1 {
+        font-size: 23px;
+        color: #ffc0c7;
+        font-weight: 700;
+        font-family: sans-serif;
+      }
+      .search{
+        padding: 10px;
+        padding-top: 10px;
+        font-size: 17px;
+        border: 1px solid #282A35;
+        background: white;
+        border-top-left-radius: 25px;
+        border-bottom-left-radius: 25px;
+        
+      }
+      .button1{
+        width: 20%;
+        padding: 10px;
+        background: #04AA6D;
+        color: white;
+        font-size: 17px;
+        border: 1px solid #282A35;
+        border-left: none;
+        cursor: pointer;
+        border-top-right-radius: 25px;
+        border-bottom-right-radius: 25px;
+        height: 40;
+        width: 8%;
+        padding-bottom: 10px;
+
+      }
+      .searchbutton{
+        background-color: black;
+        justify-content: center;
+        align-items: center; 
+        margin-bottom: 20px;
+        
+      }
+      .whole{
+        background-color: black;
+        text-align: center;
+        padding-bottom: 80px;
+        
+      }
+      .not{
+        color:white;
+        font-size: 23px;
+        font-weight: 700;
+        cursor: pointer;
+      }
+      .htmlbackground{
+        background-color:  #D9EEE1;
+        padding-top: 1%;
+        display: flex;
+        padding: 4%;
+        justify-content: center;
+        align-items: center; 
+      }
+      .fonts{
+        font-size: 100px;
+        font-weight: 700;
+        font-family: sans-serif;
+        
+        margin-bottom: 4px;
+      }
+      p{
+        font-size: 19px;
+        font-weight: 700;
+        font-family: sans-serif;
+      }
+      .learn{
+        text-decoration: none;
+        background-color:#04AA6D;
+        padding: 10px 20px;
+        border-radius: 25px;
+        font-size: 18px;
+        width: 200px;
+        color: black;
+        margin-bottom: 20px;
+        display: block;
+      }
+      .video{
+        text-decoration: none;
+        background-color: #FFF4A3;
+        padding: 10px 20px;
+        border-radius: 25px;
+        font-size: 18px;
+        width: 200px;
+        color: black;
+        margin : 20px;
+        display: block;
+      }
+      .reference{
+        text-decoration: none;
+        background-color:  #282A35;
+        padding: 10px 20px;
+        border-radius: 25px;
+        font-size: 18px;
+        width: 200px;
+        color: white;
+        margin: 20px;
+      }
+      .certified{
+        text-decoration: none;
+        background-color: #FFC0C7;
+        padding: 10px 20px;
+        border-radius: 25px;
+        font-size: 18px;
+        width: 200px;
+        color: black;
+        margin: 20px;
+        display: block;
+      }
+      .example{
+        background-color: #E7E9EB;
+        font-size: 15px;
+        font-family: sans-serif;
+        color: black;
+        width: 350px;
+        padding: 16px;
+        height: 470px;
+        
+      }
+      .inside1{
+        width: auto;
+        background-color: #fff;
+        color: #000;
+        padding: 8px 10px;
+        height: 300px;
+        border-left:4px solid green;
+        width: 300px;
+        margin-bottom: 20px;
+      }
+      .html{
+        margin-right: 3%;
+        display: block;
+        padding: 5px;
+      }
+      .try{
+        text-decoration: none;
+        background-color: #04AA6D;
+        padding: 10px 20px;
+        border-radius: 25px;
+        font-size: 18px;
+        width: 200px;
+        color: white;
+        margin-top: 20px;
+        
+      }
+      .cssbackground{
+        background-color:  #FFF4A3;
+        padding-top: 2%;
+        display: flex;
+        justify-content: center;
+        align-items: center;
+        padding-bottom: 3%;
+        
+      }
+      .css{
+        
+        display: block;
+        margin-right: 3%;
+        
+      }
+      .javascriptbackground{
+        background-color: #282A35;
+        padding-top: 2%;
+        display: flex;
+        justify-content: center;
+        align-items: center;
+        padding-bottom: 3%;
+
+      }
+      
+      .javascript{
+        margin-right: 30px;
+        display: block;
+
+      }
+      .pbackground{
+        background-color: #F3ECEA;
+        padding-top: 2%;
+        display: flex;
+        justify-content: center;
+        align-items: center;
+        padding-bottom: 30px;
+      }
+      .python{
+        margin-right: 30px;
+        display: block;
+
+
+      }
+      .sqlbackground{
+        background-color: #96D4D4;
+        padding-top: 2%;
+        display: flex;
+        justify-content: center;
+        align-items: center;
+        padding-bottom: 30px;
+
+      }
+      .sql{
+        margin-right: 30px;
+        display: block;
+
+      }
+      .black{
+        background-color: black;
+        display: flex;
+        flex-wrap: wrap;
+        align-items: center;
+        justify-content: center;
+      }
+      .php{
+        color: black;
+        background-color: #FFC0C7;
+        padding: 24px;
+        border-radius: 5px;
+        width: 35%;
+        text-align: center;
+        margin: 5%;
+        }
+    .link{
+        border-radius: 25px;
+        background-color: #282A35;
+        color: white;
+        font-size: 18px;
+        margin: auto;
+        display: block;
+        width: 200px;
+        text-decoration: none;
+        text-align: center;
+        padding: 10px;
+    }
+    .heading2{
+        font-size: 45px;
+        font-weight: 700;
+    }
+    .heading5{
+        font-size: 18px;
+        
+    }
+    .jquery{
+        color: black;
+        background-color:  #FFF4A3;
+        padding: 24px;
+        border-radius: 5px;
+        width: 35%;
+        text-align: center;
+        margin: 5%;
+
+    }
+    .java{
+        color: black;
+        background-color: #F3ECEA;
+        padding: 24px;
+        border-radius: 5px;
+        width: 35%;
+        text-align: center;
+        margin: 5%;
+
+    }
+    .cplus{
+        color: black;
+        background-color:  #D9EEE1;
+        padding: 24px;
+        border-radius: 5px;
+        width: 35%;
+        text-align: center;
+        margin: 5%;
+
+    }
+    .w3css{
+        color: black;
+        background-color:   #96D4D4;
+        padding: 24px;
+        border-radius: 5px;
+        width: 35%;
+        text-align: center;
+        margin: 5%;
+
+    }
+    .bootstrap{
+        color: black;
+        background-color:    #E7E9EB;
+        padding: 24px;
+        border-radius: 5px;
+        width: 35%;
+        text-align: center;
+        margin: 5%;
+
+    }
+    .c{
+        color: black;
+        background-color:   #FFC0C7 ;
+        padding: 24px;
+        border-radius: 5px;
+        width: 35%;
+        text-align: center;
+        margin: 5%;
+
+
+    }
+    .chash{
+        color: black;
+        background-color:  #FFF4A3 ;
+        padding: 24px;
+        border-radius: 5px;
+        width: 35%;
+        text-align: center;
+        margin: 5%;
+    }
+    .R{
+        color: black;
+        background-color:   #F3ECEA ;
+        padding: 24px;
+        border-radius: 5px;
+        width: 15%;
+        text-align: center;
+        margin: 2%;
+        font-family: sans-serif;
+        display: block;
+        cursor: pointer;
+
+    }
+    .kotlin{
+        color: black;
+        background-color:   #D9EEE1;
+        padding: 24px;
+        border-radius: 5px;
+        width: 15%;
+        text-align: center;
+        margin: 2%;
+        font-family: sans-serif;
+        display: block;
+        cursor: pointer;
+    }
+    .nodejs{
+        color: black;
+        background-color:    #96D4D4;
+        padding: 24px;
+        border-radius: 5px;
+        width: 15%;
+        text-align: center;
+        margin: 2%;
+        font-family: sans-serif;
+        display: block;
+        cursor: pointer;
+
+    }
+    .react{
+        color: black;
+        background-color:  #FFC0C7;
+        padding: 24px;
+        border-radius: 5px;
+        width: 15%;
+        text-align: center;
+        margin: 2%;
+        font-family: sans-serif;
+        display: block;
+        cursor: pointer;
+
+    }
+    .json{
+        color: black;
+        background-color:   #FFF4A3;
+        padding: 24px;
+        border-radius: 5px;
+        width: 15%;
+        text-align: center;
+        margin: 2%;
+        font-family: sans-serif;
+        display: block;
+        cursor: pointer;
+
+
+    }
+    .vue{
+        color: black;
+        background-color:  #F3ECEA;
+        padding: 24px;
+        border-radius: 5px;
+        width: 15%;
+        text-align: center;
+        margin: 2%;
+        font-family: sans-serif;
+        display: block;
+        cursor: pointer;
+
+    }
+    .mysql{
+        color: black;
+        background-color:  #FFC0C7;
+        padding: 24px;
+        border-radius: 5px;
+        width: 15%;
+        text-align: center;
+        margin: 2%;
+        font-family: sans-serif;
+        display: block;
+        cursor: pointer;
+
+    }
+    .xml{
+        color: black;
+        background-color:  #96D4D4;
+        padding: 24px;
+        border-radius: 5px;
+        width: 15%;
+        text-align: center;
+        margin: 2%;
+        font-family: sans-serif;
+        display: block;
+        cursor: pointer;
+
+    }
+    .saas{
+        color: black;
+        background-color:#FFC0C7;
+        padding: 24px;
+        border-radius: 5px;
+        width: 15%;
+        text-align: center;
+        margin: 2%;
+        font-family: sans-serif;
+        display: block;
+        cursor: pointer;
+
+    }
+    .icon{
+        color: black;
+        background-color: #FFF4A3;
+        padding: 24px;
+        border-radius: 5px;
+        width: 15%;
+        text-align: center;
+        margin: 2%;
+        font-family: sans-serif;
+        display: block;
+        cursor: pointer;
+
+
+    }
+    .rwd{
+        color: black;
+        background-color: #282A35;
+        padding: 24px;
+        border-radius: 5px;
+        width: 15%;
+        text-align: center;
+        margin: 2%;
+        font-family: sans-serif;
+        display: block;
+        cursor: pointer;
+
+    }
+    .graphic{
+        color: black;
+        background-color: #D9EEE1;
+        padding: 24px;
+        border-radius: 5px;
+        width: 15%;
+        text-align: center;
+        margin: 2%;
+        font-family: sans-serif;
+        display: block;
+        cursor: pointer;
+    }
+    .svg{
+        color: black;
+        background-color: #96D4D4;
+        padding: 24px;
+        border-radius: 5px;
+        width: 15%;
+        text-align: center;
+        margin: 2%;
+        font-family: sans-serif;
+        display: block;
+
+    }
+    .canvas{
+        color: black;
+        background-color:  #FFC0C7;
+        padding: 24px;
+        border-radius: 5px;
+        width: 15%;
+        text-align: center;
+        margin: 2%;
+        font-family: sans-serif;
+        display: block;
+
+
+    }
+    .rasberry{
+        color: black;
+        background-color:  #FFF4A3;
+        padding: 24px;
+        border-radius: 5px;
+        width: 15%;
+        text-align: center;
+        margin: 2%;
+        font-family: sans-serif;
+        display: block;
+
+
+    }
+    .cyber{
+        color: black;
+        background-color: #F3ECEA;
+        padding: 24px;
+        border-radius: 5px;
+        width: 15%;
+        text-align: center;
+        margin: 2%;
+        font-family: sans-serif;
+        display: block;
+    }
+    .color{
+        color: black;
+        background-color: #D9EEE1;
+        padding: 24px;
+        border-radius: 5px;
+        width: 15%;
+        text-align: center;
+        margin: 2%;
+        font-family: sans-serif;
+        display: block;
+
+    }
+    .git{
+        color: black;
+        background-color: #96D4D4;
+        padding: 24px;
+        border-radius: 5px;
+        width: 15%;
+        text-align: center;
+        margin: 2%;
+        font-family: sans-serif;
+
+    }
+    .matplot{
+        color: black;
+        background-color: #FFC0C7;
+        padding: 24px;
+        border-radius: 5px;
+        width: 15%;
+        text-align: center;
+        margin: 2%;
+        font-family: sans-serif;
+
+    }
+    .numpy{
+        color: black;
+        background-color:  #FFF4A3;
+        padding: 24px;
+        border-radius: 5px;
+        width: 15%;
+        text-align: center;
+        margin: 2%;
+        font-family: sans-serif;
+
+    }
+    .pandas{
+        color: black;
+        background-color: #F3ECEA;
+        padding: 24px;
+        border-radius: 5px;
+        width: 15%;
+        text-align: center;
+        margin: 2%;
+        font-family: sans-serif;
+
+    }
+    .scipy{
+        color: black;
+        background-color: #D9EEE1;
+        padding: 24px;
+        border-radius: 5px;
+        width: 15%;
+        text-align: center;
+        margin: 2%;
+        font-family: sans-serif;
+
+    }
+    .asp{
+        color: black;
+        background-color: #96D4D4;
+        padding: 24px;
+        border-radius: 5px;
+        width: 15%;
+        text-align: center;
+        margin: 2%;
+        font-family: sans-serif;
+
+    }
+    .angular{
+        color: black;
+        background-color: #FFC0C7;
+        padding: 24px;
+        border-radius: 5px;
+        width: 15%;
+        text-align: center;
+        margin: 2%;
+        font-family: sans-serif;
+
+    }
+    .appml{
+        color: black;
+        background-color:  #FFF4A3;
+        padding: 24px;
+        border-radius: 5px;
+        width: 15%;
+        text-align: center;
+        margin: 2%;
+        font-family: sans-serif;
+
+    }
+    .go{
+        color: black;
+        background-color: #FFC0C7;
+        padding: 24px;
+        border-radius: 5px;
+        width: 15%;
+        text-align: center;
+        margin: 2%;
+        font-family: sans-serif;
+
+    }
+    .typescript{
+        color: black;
+        background-color: #D9EEE1;
+        padding: 24px;
+        border-radius: 5px;
+        width: 15%;
+        text-align: center;
+        margin: 2%;
+        font-family: sans-serif;
+
+    }
+    .django{
+        color: black;
+        background-color:greenyellow;
+        padding: 24px;
+        border-radius: 5px;
+        width: 15%;
+        text-align: center;
+        margin: 2%;
+        font-family: sans-serif;
+
+    }
+    .mango{
+        color: black;
+        background-color: violet;
+        padding: 24px;
+        border-radius: 5px;
+        width: 15%;
+        text-align: center;
+        margin: 2%;
+        font-family: sans-serif;
+
+    }
+    .statistics{
+        color: black;
+        background-color: #D9EEE1;
+        padding: 24px;
+        border-radius: 5px;
+        width: 15%;
+        text-align: center;
+        margin: 2%;
+        font-family: sans-serif;
+
+    }
+    .datascience{
+        color: black;
+        background-color: orange;
+        padding: 24px;
+        border-radius: 5px;
+        width: 15%;
+        text-align: center;
+        margin: 2%;
+        font-family: sans-serif;
+
+    }
+    .typingspeed{
+        color: black;
+        background-color:  #FFC0C7;
+        padding: 24px;
+        border-radius: 5px;
+        width: 15%;
+        text-align: center;
+        margin: 2%;
+        font-family: sans-serif;
+
+    }
+    .spaces{
+        color: black;
+        background-color: #D9EEE1;
+        padding: 24px;
+        border-radius: 5px;
+        width: 15%;
+        text-align: center;
+        margin: 2%;
+        font-family: sans-serif;
+    }
+    .howto{
+        color: black;
+        background-color: #D9EEE1;
+        padding: 24px;
+        border-radius: 5px;
+        width: 15%;
+        text-align: center;
+        margin: 2%;
+        font-family: sans-serif;
+
+    }
+    .codegame{
+        color: black;
+        background-color: red;
+        padding: 24px;
+        border-radius: 5px;
+        width: 15%;
+        text-align: center;
+        margin: 2%;
+        font-family: sans-serif;
+
+    }
+    .spaces{
+        color: black;
+        background-color: #D9EEE1;
+        padding: 24px;
+        border-radius: 5px;
+        width: 15%;
+        text-align: center;
+        margin: 2%;
+        font-family: sans-serif;
+
+    }
+    .post{
+        color: black;
+        background-color: darkturquoise;
+        padding: 24px;
+        border-radius: 5px;
+        width: 15%;
+        text-align: center;
+        margin: 2%;
+        font-family: sans-serif;
+
+    }
+    .excel{
+        color: black;
+        background-color: #D9EEE1;
+        padding: 25px;
+        border-radius: 5px;
+        width: 40%;
+        text-align: center;
+        margin: 2%;
+        font-family: sans-serif;
+    }
+    .googlesheet{
+        color: black;
+        background-color:maroon;
+        padding: 25px;
+        border-radius: 5px;
+        width: 40%;
+        text-align: center;
+        margin: 2%;
+        font-family: sans-serif;
+    }
+    .machine{
+        color: black;
+        background-color: yellow;
+        padding: 25px;
+        border-radius: 5px;
+        width: 40%;
+        text-align: center;
+        margin: 2%;
+        font-family: sans-serif;
+
+    }
+    .artificial{
+        color: black;
+        background-color:gray;
+        padding: 25px;
+        border-radius: 5px;
+        width: 40%;
+        text-align: center;
+        margin: 2%;
+        font-family: sans-serif;
+
+    }
+    .html>button{
+        width: 170px;
+        text-align: center;
+        height: 40px;
+        margin-bottom: 10px;
+    }
+    .html>:nth-child(3){
+        margin-left: 20px;
+    }
+    .css>button{
+        width: 170px;
+        text-align: center;
+        height: 40px;
+        margin-bottom: 10px;
+
+    }
+
+    .css >.learn{
+        margin-left: 20px;
+    }
+    .javascript>button{
+        width: 170px;
+        text-align: center;
+        height: 40px;
+        margin-bottom: 10px;
+    }
+    .javascript>.learn{
+        margin-left: 20px;
+
+    }
+
+    .python>button{
+        width: 170px;
+        text-align: center;
+        height: 40px;
+        margin-bottom: 10px;
+
+    }
+    .python>.learn{
+        margin-left: 20px;
+
+    }
+    .sql>button{
+        width: 170px;
+        text-align: center;
+        height: 40px;
+        margin-bottom: 10px;
+    }
+    .sql>.learn{
+        margin-left: 20px;
+
+    }
+    .head1{
+        display: list-item;
+    }
+    .head1>button{
+
+        width: 100px;
+        height: 40px;
+        border-radius: 24px;
+        cursor: pointer;
+    }
+    .head1>.btn1{
+        background-color:rgb(86, 250, 86);
+        position: relative;
+        
+    }
+    .head1>.btn2{
+        background-color: rgb(209, 206, 206);
+        position: relative;
+    }
+    .head1{
+        display: flex;
+        justify-content: flex-end;
+        margin: 20px 20px 10px 20px;
+        background-color: rgb(255, 255, 255);
+        color: black;
+    }
+
+    .whole{
+        padding: 25px;
+    }
+    .bts1{
+        background-color: #000;
+        color: white;
+        font-size: 15px;
+        height: 30px;
+        display: inline-block;
+        width: 100%;
+        
+    
+        
+    }
+    .bts{
+        color: #fff;
+        text-decoration: none;
+        padding: 10px;
+        font-size: 25px;
+        
+    }
+
+      
+    </style>
+  </head>
+  <body>
+    <div class="head1">
+        <button class="btn1">Sign Up</button>
+        <button class="btn2">Login</button>
+    </div>
+    <div class="bts1">
+        <a href="html" class="bts">html</a>
+        <a href="css" class="bts">css</a>
+        <a href="javascript" class="bts">javascript</a>
+        <a href="sql" class="bts">sql</a>
+        <a href="java" class="bts">java</a>
+        <a href="python" class="bts">python</a>
+        <a href="php" class="bts">php</a>
+        <a href="bootstrap" class="bts">bootstrap</a>
+        <a href="howto" class="bts">how to</a>
+        <a href="w3.css" class="bts">w3.css</a>
+        <a href="c" class="bts">c</a>
+        <a href="cplus" class="bts">c ++</a>
+        <a href="chash" class="bts">c#</a> 
+        <a href="django" class="bts">django</a>
+        <a href="react" class="bts">react</a>
+        <a href="R" class="bts">R</a>
+        <a href="jquery" class="bts">jquery</a>
+    </div>
+
+
+        
+    </div>
+    <div class="whole">
+            <div class="headingdiv">
+            <h1 class="heading">Learn to code</h1>
+            <h3 class="heading1">with the world's largest web developer site</h3>
+            </div>
+          <div class="searchbutton" style="display: flex;">
+              <input type="text" class="search" placeholder="search our tutorials eg HTML"/> 
+                <button type="button " class="button1" ></button>
+            </div>
+            
+            <a class="not" href="not sure where to find?"> not sure where to find?</a>
+            
+    </div>
+    <div class="htmlbackground">
+        <div>
+            <div class="html">
+                <h1 class="fonts"> HTML</h1>
+                <h5 style="font-size: 20px;font-weight: 700;">The language for building web pages</h5> 
+            
+                <button class="learn" > learn html</button>
+                <button class="video"> learn video</button>
+                <button class="reference">reference</button>
+                <button class="certified"> certified </button>
+            </div>
+        </div>
+        <div class="example">
+            <h3>HTML example</h3>
+            <div class="inside1"></div>
+            <a href="try yourself" class="try"> try it yourself</a>
+        </div>
+    </div>
+
+    <div class="cssbackground">
+        <div>
+            <div class="css">
+                <h1 class="fonts"> CSS</h1>
+                <h5 style="font-size: 20px;font-weight: 700;">The language for building web pages</h5> 
+                <button class="learn"> learn css</button>
+                <button class="reference"> reference </button>
+                <button class="certified"> certified</button>
+            </div>
+        </div>
+        <div class="example">
+            <h3>css example</h3>
+            <div class="inside1"></div>
+            <a href="try yourself" class="try"> try it yourself</a>
+        </div>
+    </div>
+
+    <div class="javascriptbackground">
+        <div>
+            <div class="javascript">
+                <h1 class="fonts" style="color: white;"> javascript</h3>
+                <h5 style="font-size: 20px;font-weight: 700; color: white;">The language for building web page</h5>
+                <button class="learn"> learn javascript</button>
+                <button class="reference"> reference </button>
+                <button class="certified"> certified</button>
+            </div>
+        </div>
+        <div class="example">
+            <h3>javascript example</h3>
+            <div class="inside1"></div>
+            <a href="try yourself" class="try"> try it yourself</a>
+        </div>
+    </div>
+
+    <div class="pbackground">
+        <div>
+            <div class="python">
+                <h1 class="fonts"> python</h1>
+                <h5 style="font-size: 20px;font-weight: 700;">The popuplar programming languages</h5> 
+            
+                <button class="learn"> learn python</button>
+                <button class="reference"> reference </button>
+                <button class="certified"> certified</button>
+            </div>
+        </div>
+        <div class="example">
+            <h3>python example</h3>
+            <div class="inside1"></div>
+            <a href="try yourself" class="try"> try it yourself</a>
+        </div>
+    </div>
+
+    <div class="sqlbackground">
+        <div>
+            <div class="sql">
+                <h1 class="fonts"> sql</h1>
+                <h5 style="font-size: 20px;font-weight: 700;">a language for accesing databases</h5> 
+                <button class="learn"> learn sql</button>
+                <button class="reference"> reference </button>
+                <button class="certified"> certified</button>
+            </div>
+        </div>
+        <div class="example">
+            <h3>SQL example</h3>
+            <div class="inside1"></div>
+            <a href="try yourself" class="try"> try it yourself</a>
+        </div>
+    </div>
+
+    <div class="black">
+        <div class="php">
+            <h2 class="heading2"> php</h2>
+            <h5 class="heading5">A web server programing language</h5>
+            <a href="learn php" class="link">learn php</a>
+        </div>
+        <div class="jquery">
+            <h2 class="heading2"> jquery</h2>
+            <h5 class="heading5">A web server programing language</h5>
+            <a href="learn jquery" class="link">learn jquery</a>
+        </div>
+        <div class="java">
+            <h2 class="heading2"> java</h2>
+            <h5 class="heading5">A  programing language</h5>
+            <a href="learn java" class="link">learn java</a>
+        </div>
+        <div class="cplus">
+            <h2 class="heading2"> c++</h2>
+            <h5 class="heading5">A  programing language</h5>
+            <a href="learn c++" class="link">learn c++</a>
+        </div>
+        <div class="w3css">
+            <h2 class="heading2"> w3.css</h2>
+            <h5 class="heading5">A  css framework  for better and responsive web page</h5>
+            <a href="learn w3css" class="link">learn css</a>
+        </div>
+        <div class="bootstrap">
+            <h2 class="heading2"> bootstrap</h2>
+            <h5 class="heading5">A  css framework  for better and responsive web page</h5>
+            <a href="learn bootstrap" class="link">learn bootstrap</a>
+        </div>
+        <div class="c">
+            <h2 class="heading2"> c</h2>
+        </div>
+        <div class="chash">
+            <h2 class="heading2"> c#</h2>
+        </div>
+        <div class="R">
+            <h2>R</h2>
+        </div>
+        <div class="kotlin">
+            <h2>kotlin</h2>
+        </div>
+        <div class="nodejs">
+            <h2>node.js</h2>
+        </div>
+        <div class="react">
+            <h2>react</h2>
+        </div>
+        <div class="json">
+            <h2>json</h2>
+        </div>
+        <div class="vue">
+            <h2>vue</h2>
+        </div>
+        <div class="mysql">
+            <h2>mysql</h2>
+        </div>
+        <div class="xml">
+            <h2>xml</h2>
+        </div>
+        <div class="saas">
+            <h2>saas</h2>
+        </div>
+        <div class="icon">
+            <h2>icon</h2>
+        </div>
+        <div class="rwd">
+            <h2>rwd</h2>
+        </div>
+        <div class="graphic">
+            <h2>graphic</h2>
+        </div>
+        <div class="svg">
+            <h2>svg</h2>
+        </div>
+        <div class="canvas">
+            <h2>canvas</h2>
+        </div>
+        <div class="rasberry">
+            <h2>rasberry</h2>
+        </div>
+        <div class="cyber">
+            <h2>cyber security</h2>
+        </div>
+        <div class="color">
+            <h2>colors</h2>
+        </div>
+        <div class="git">
+            <h2>git</h2>
+        </div>
+        <div class="matplot">
+            <h2>matplot</h2>
+        </div>
+        <div class="numpy">
+            <h2>numpy</h2>
+        </div>
+        <div class="pandas">
+            <h2>pandas</h2>
+        </div>
+       
+        <div class="scipy">
+            <h2>scipy</h2>
+        </div>
+        <div class="asp">
+            <h2>Asp</h2>
+        </div>
+        <div class="angular">
+            <h2>angularjs</h2>
+        </div>
+        <div class="appml">
+            <h2>Appml</h2>
+        </div>
+        <div class="go">
+            <h2>git</h2>
+        </div>
+        <div class="typescript">
+            <h2>typrescript</h2>
+        </div>
+        <div class="django">
+            <h2>django</h2>
+        </div>
+        <div class="mango">
+            <h2>mangodb</h2>
+        </div>
+        <div class="statistics">
+            <h2>statistics</h2>
+        </div>
+        <div class="datascience">
+            <h2>data science</h2>
+        </div>
+        <div class="typingspeed">
+            <h2>typing speed</h2>
+        </div>
+        <div class="howto">
+            <h2>how to</h2>
+        </div>
+        <div class="codegame">
+            <h2>codegame</h2>
+        </div>
+        <div class="spaces">
+            <h2>spaces</h2>
+        </div>
+        <div class="post">
+            <h2>postsql</h2>
+        </div>
+        <div class="excel">
+            <h2>excel</h2>
+        </div>
+        <div class="googlesheet">
+            <h2>google sheet</h2>
+        </div>
+        <div class="machine">
+            <h2>machine learning</h2>
+        </div>
+        <div class="artificial">
+            <h2>artifial intelligence</h2>
+        </div>
+
+    </div>
+    <script>
+        
+    </script>
+    
+    
+  </body>
+</html>
